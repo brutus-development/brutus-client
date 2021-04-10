@@ -4,6 +4,6 @@ we at brutus development provide premium modules such as instantburrow and packe
 
 how to install:
 download the brutusclient release
-put the file in your 1.12.2 mods folder
-run the file
+run the installer and select a version
+click install
 and that's it your all set!
