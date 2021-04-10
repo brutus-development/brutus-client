@@ -1,0 +1,38 @@
+changelog 0.2.1 :
+
+
+Scaffold
+
+Rewrote calculation algorithm
+Added Expand option (keep at 1 or below on strict anticheats)
+Added Center option
+Added KeepY option
+Added Down option (Hold L ALT go down)
+AutoGG
+
+AutoGG will now have customisable messages
+You can edit each mode’s messages in minecraft/Konas/AutoGG/mode
+Config
+
+Configs will now automatically save when leaving game
+The last used config will be automatically loaded when launching game
+New “config create” command will create a new config and swap to it
+Naming a config @serverip.example will make the config auto-load when you join that server
+CrystalAura
+
+Fixed ArmorBreaker placing crystals that do 0 damage
+Added Steps. This lets you customise how fast you rotate when using MaxTorque. Set this to 1 on most servers.
+Added Ticks. This lets you customise your rotation delay when using MaxTorque.
+Added Impede option to CrystalAura. This will only break crystals during damage ticks
+Improved break targeting
+Improved RayTracing, added separate Direction (spacial) and Strict options. Use direction on strict anticheats
+Improved sequencing algorithm. It should be easier to outplace enemies now.
+Added Break Delay for 2b2t
+Added range rendering for CA range settings when in 3rd person
+Added Health Pause option
+Improved Predict algorithm
+PacketFly
+
+Added NoPhaseSlow option
+Added Bounds option for Preserve PacketMode
+Added Obscure PacketMode
